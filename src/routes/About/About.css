@@ -1,0 +1,9 @@
+.marvel__about {
+    margin: 30px auto;
+    max-width: 1000px;
+    padding: 0 4%;
+}
+
+.marvel__about span {
+    font-weight: bolder;
+}

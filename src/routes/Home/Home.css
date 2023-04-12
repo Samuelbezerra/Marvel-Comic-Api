@@ -1,0 +1,14 @@
+.marvel__home {
+    margin: 0 auto;
+    max-width: 1980px;
+    padding: 0 4%;
+}
+
+.marvel__home--error {
+    color: red;
+    margin: 30px auto;
+    padding: 0 4%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

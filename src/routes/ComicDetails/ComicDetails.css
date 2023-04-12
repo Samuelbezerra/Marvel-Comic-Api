@@ -1,0 +1,65 @@
+.marvel__details {
+    margin: 30px auto;
+    max-width: 1000px;
+    padding: 0 4%;
+}
+
+.marvel__details--container {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.marvel__details--container img{
+    width: 50%;
+}
+
+.marvel__details--container--text {
+    margin-left: 25%;
+}
+
+.marvel__details--container--text h4 {
+    margin-bottom: 0;
+}
+
+.marvel__details--container--text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.marvel__details--error {
+    color: red;
+    margin: 30px auto;
+    padding: 0 4%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.marvel__details--container--text button{
+    background-color: red;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.marvel__details--container--text button:hover{
+    border: 2px solid black;
+    color: white;
+}
+
+@media screen and (max-width: 800px){
+    .marvel__details--container img {
+        width: 100%;
+    }
+
+    .marvel__details--container--text {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,112 @@
+.marvel__cart--error {
+    color: red;
+    margin: 30px auto;
+    padding: 0 4%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.marvel__cart {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px auto;
+    margin-bottom: 350px;
+    max-width: 1000px;
+    padding: 0 4%;
+    justify-content: space-around;
+}
+
+.marvel__cart--search {
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.marvel__cart--button {
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.marvel__cart--form {
+    width: 50%;
+}
+
+.marvel__cart--form--input {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+}
+
+.marvel__cart--form--input.w-50 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.marvel__cart--form--input input{
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    border-radius: 2px;
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.marvel__cart--form--input .w-50{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+}
+
+.marvel__cart--buynow {
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+ComboboxPopover {
+    background-color: white;
+}
+
+.marvel__cart--comic {
+    display: flex;
+    flex-flow: column;
+}
+
+.marvel__cart--comic img {
+    width: 250px;
+    margin: 10px 0;
+}
+
+.marvel__confirmation {
+    color: red;
+    margin: 20px auto;
+    max-width: 1550px;
+    padding: 0 5%;
+}
+
+@media screen and (max-width:550px) {
+    .marvel__cart--form--input.w-50 {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .marvel__cart--form--input .w-50{
+        width: 100%;
+    }
+
+    .marvel__cart--comic {
+        margin: 10px 0;
+    }
+}
